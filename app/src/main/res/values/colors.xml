@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorViewDivider">#d4d3d4</color>
+    <color name="colorCreditCard">#FF4081</color>
+    <color name="colorWebsiteLogin">#8050f9</color>
+    <color name="colorEbanking">#ff841f</color>
+    <color name="colorEshopping">#c9f668</color>
+    <color name="colorEmail">#f9f163</color>
+    <color name="colorOthers">#f51008</color>
+    <color name="colorComputerLogin">#40ffbc</color>
+
+</resources>

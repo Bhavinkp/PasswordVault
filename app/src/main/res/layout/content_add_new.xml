@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView7"
+    android:scrollbarStyle="insideInset"
+    android:layout_alignParentStart="true"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.passwordvault.activity.AddNewActivity"
+    tools:showIn="@layout/activity_add_new">
+
+<!-- android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin" -->
+
+<RelativeLayout
+    android:id="@+id/content_add_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:background="#f54747"
+        app:srcCompat="@drawable/ic_credit_card_white_48dp"
+        android:id="@+id/imageView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Title "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView7"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView3"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/addNew_LinearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>

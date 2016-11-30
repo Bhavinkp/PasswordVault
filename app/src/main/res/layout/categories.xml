@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context="com.passwordvault.activity.MainActivity">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:background="#fa4e82"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/ic_shopping_cart_white_48dp"
+        android:layout_height="46dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_width="68dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:background="#039df6"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="68dp"
+        android:src="@drawable/ic_computer_white_48dp"
+        android:layout_height="46dp"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:background="#55e94a"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="68dp"
+        android:src="@drawable/ic_credit_card_white_48dp"
+        android:layout_height="46dp"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:background="#fe9319"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="68dp"
+        android:src="@drawable/ic_email_white_48dp"
+        android:layout_height="46dp"
+        android:layout_row="3"
+        android:layout_column="0" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:background="#e4da20"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="68dp"
+        android:src="@drawable/ic_cloud_white_48dp"
+        android:layout_height="46dp"
+        android:layout_row="4"
+        android:layout_column="0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:background="#5935e9"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="68dp"
+        android:src="@drawable/ic_public_white_48dp"
+        android:layout_height="46dp"
+        android:layout_row="5"
+        android:layout_column="0" />
+
+    <TextView
+        android:id="@+id/computerLogin"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@style/textViewsForCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Computer Login"
+        android:layout_row="1"
+        android:onClick="myClickMethod"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/cloudStorage"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@style/textViewsForCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cloud Storage"
+        android:layout_row="4"
+        android:onClick="myClickMethod"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/websites"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@style/textViewsForCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Websites"
+        android:layout_row="5"
+        android:onClick="myClickMethod"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/creditCards"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@style/textViewsForCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Credit Cards"
+        android:layout_row="2"
+        android:onClick="myClickMethod"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/eMail"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="@style/textViewsForCategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="E-mail"
+        android:layout_row="3"
+        android:onClick="myClickMethod"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/eShopping"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="E-Shopping"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:onClick="myClickMethod"
+        android:textAppearance="@style/textViewsForCategories"
+        />
+
+</GridLayout>
+</ScrollView>
+

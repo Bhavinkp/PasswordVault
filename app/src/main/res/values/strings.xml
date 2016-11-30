@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">PasswordVault</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <array name="Categories">
+        <item>Website Login</item>
+        <item>Bank Account</item>
+
+        <item>Credit/Debit Cards</item>
+        <item>Computer Login</item>
+        <item>E-Banking</item>
+        <item>E-Shopping</item>
+        <item>E-mail</item>
+        <item>Insurance Policy</item>
+        <item>Documents</item>
+        <item>Secure Note</item>
+        <item>Other</item>
+    </array>
+
+
+    <array name="creditCardTextView">
+        <item>Card Holder Name</item>
+        <item>Card Number</item>
+        <item>Card Type</item>
+        <item>CVV Number</item>
+        <item>PIN Number</item>
+        <item>Password</item>
+        <item>Bank Name</item>
+        <item>Date of Issue</item>
+        <item>Date of Expiry</item>
+        <item>Extra Notes</item>
+    </array>
+
+
+    <array name="webloginTextView">
+        <item>Username</item>
+        <item>Email</item>
+        <item>Password</item>
+        <item>Phone Number</item>
+        <item>URL</item>
+        <item>Security question</item>
+        <item>Security answer</item>
+    </array>
+
+    <array name="bankAccountTextView">
+        <item>Bank Name</item>
+        <item>Account Holder </item>
+        <item>Type</item>
+        <item>Account Number</item>
+        <item>Customer Id (CIF)</item>
+        <item>Routing Number</item>
+        <item>Branch Name</item>
+        <item>Branch Code</item>
+        <item>IFSC Code</item>
+        <item>Branch Address</item>
+        <item>Branch Number</item>
+    </array>
+
+    <array name="insurancePolicyTextView">
+        <item>Policy Name</item>
+        <item>Company</item>
+        <item>Policy Holder</item>
+        <item>Number</item>
+        <item>Type Premium</item>
+        <item>Sum assured</item>
+        <item>Issue Date</item>
+        <item>Renewal Date</item>
+        <item>Expiry Date</item>
+        <item>Term</item>
+        <item>Nominee</item>
+        <item>Agent Name</item>
+        <item>Helpline</item>
+    </array>
+
+    <array name="emailTextView">
+        <item>Email</item>
+        <item>Username</item>
+        <item>Password</item>
+        <item>Type</item>
+        <item>POP3 Server</item>
+        <item>IMAP Server</item>
+        <item>Port</item>
+        <item>Security Type</item>
+        <item>Website</item>
+        <item>Security question</item>
+        <item>Security answer</item>
+    </array>
+
+    <array name="computerLoginTextView">
+        <item>Username</item>
+        <item>Password</item>
+        <item>Password Hint</item>
+        <item>Computer Type (Personal,Work, etc.)</item>
+        <item>Computer Name</item>
+        <item>Security question</item>
+        <item>Security answer</item>
+    </array>
+
+
+    <array name="eShoppingTextView">
+        <item>Website</item>
+        <item>Type (All purpose,Groceries)</item>
+        <item>Username</item>
+        <item>Email</item>
+        <item>Password</item>
+        <item>Preferred Payment mode</item>
+    </array>
+
+    <array name="eBankingTextView">
+        <item>Website</item>
+        <item>Username</item>
+        <item>Email</item>
+        <item>Password</item>
+        <item>Profile password</item>
+        <item>Bank Name</item>
+    </array>
+
+    <array name="Documents">
+    </array>
+
+    <array name="drivingLicenseTextView">
+        <item>Driving License Number</item>
+        <item>Date of Issue</item>
+        <item>Date of Expiry</item>
+        <item>License For</item>
+        <item>State</item>
+        <item>Name</item>
+        <item>Date of Birth</item>
+        <item>Address</item>
+    </array>
+
+    <array name="panCardTextView">
+        <item>PAN Number</item>
+        <item>Name </item>
+        <item>Date of Birth</item>
+    </array>
+
+    <array name="aadharCardTextView">
+        <item>Aadhar Number </item>
+        <item>Enrolment Number</item>
+        <item>Name</item>
+        <item>Gender</item>
+        <item>Date of Birth</item>
+        <item>Address</item>
+    </array>
+
+    <array name="passportTextView">
+        <item>Passport Number</item>
+        <item>Name</item>
+        <item>Nationality</item>
+        <item>Place of Issue</item>
+        <item>Date of Issue</item>
+        <item>Date of Expiry</item>
+        <item>Name of Father</item>
+        <item>Name of Mother</item>
+        <item>Address</item>
+        <item>File Number</item>
+    </array>
+
+    <array name="secureNotesTextView">
+        <item>Title</item>
+        <item>Note</item>
+    </array>
+
+    <array name="othersTextView">
+        <item>Field 1</item>
+        <item>Field 2</item>
+    </array>
+
+    <array name="documentsTextView">
+        <item>Field 1</item>
+        <item>Field 2</item>
+    </array>
+
+    <string name="title_activity_add_new">Add New</string>
+
+</resources>
